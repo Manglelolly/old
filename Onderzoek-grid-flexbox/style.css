@@ -1,0 +1,45 @@
+body
+{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    /*grid-template-columns: repeat(3, 20vw);
+    grid-template-rows: repeat(3, 30vh);*/
+    
+}
+
+div[id="green"]
+{
+    background-color: green;
+    grid-row: 3;
+}
+
+div[id="orange"]
+{
+    background-color: orange;
+}
+
+div[id="red"]
+{
+    background-color: red;
+}
+
+div[id="blue"]
+{
+    background-color: blue;
+}
+
+div[id="purple"]
+{
+    background-color: purple;
+}
+
+div {
+    height: 20vh;
+    width: 15vw;
+}
